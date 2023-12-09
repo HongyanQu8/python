@@ -1,0 +1,9 @@
+import queue
+
+q = queue.Queue()
+q.put(100)
+q.get()
+
+pq = queue.PriorityQueue()
+pq.put("D")
+pq.get()
